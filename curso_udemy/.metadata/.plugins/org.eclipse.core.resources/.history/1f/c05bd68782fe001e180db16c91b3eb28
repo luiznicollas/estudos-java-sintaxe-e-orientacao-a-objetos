@@ -1,0 +1,10 @@
+
+public class SaidaDeDados {
+
+	public static void main(String[] args) {
+ 		  double  valor = 80.3456;
+            System.out.printf("o seu valor é %.2f" + valor);
+	   
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class SaidaDeDados {
+
+	public static void main(String[] args) {
+ 		  double  valor = 80.3456;
+ 		  double maisvalor = 34.2134;
+            System.out.printf("o seu valor é %.2f e %.2f" ,valor,maisvalor);
+	   
+	}
+
+}

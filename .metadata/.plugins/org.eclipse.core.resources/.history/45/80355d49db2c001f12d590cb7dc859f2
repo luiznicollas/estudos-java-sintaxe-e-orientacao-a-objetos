@@ -1,0 +1,56 @@
+
+public class ContaBancaria {
+
+	private String titular;
+	private double numeroConta;
+	private double depositoInicial;
+	private double saldoConta;
+
+	public ContaBancaria() {
+
+	}
+
+	public ContaBancaria(String titular, double numeroConta, double depositoInicial) {
+		super();
+		this.titular = titular;
+		this.numeroConta = numeroConta;
+		this.depositoInicial = depositoInicial;
+	}
+
+	public String getTitular() {
+		return titular;
+	}
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+	public double getNumeroConta() {
+		return numeroConta;
+	}
+
+	public void setNumeroConta(double numeroConta) {
+		this.numeroConta = numeroConta;
+	}
+
+	public void setDepositoInicial(double depositoInicial) {
+		this.depositoInicial = depositoInicial;
+	}
+
+	public double getSaldoConta() {
+		return saldoConta;
+
+	}
+
+	public void deposito(double valor) {
+		saldoConta += valor;
+		System.out.println(saldoConta);
+	}
+
+	public void saque(double valor) {
+		saldoConta -= valor;
+		saldoConta -= 5;
+		System.out.println(saldoConta);
+	}
+
+}

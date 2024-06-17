@@ -1,0 +1,9 @@
+
+public class SaidaDeDados {
+
+	public static void main(String[] args) {
+ 		  System.out.print("bom dia!"); // sem quebra de linha
+ 		 System.out.println("boa tarde!"); 
+	}
+
+}

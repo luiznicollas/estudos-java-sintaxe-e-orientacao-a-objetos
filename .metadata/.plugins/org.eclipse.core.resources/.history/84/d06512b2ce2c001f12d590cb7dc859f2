@@ -1,0 +1,7 @@
+
+public class ContaBancaria {
+    
+	private String Titular;
+	private double NumeroConta;
+	
+}

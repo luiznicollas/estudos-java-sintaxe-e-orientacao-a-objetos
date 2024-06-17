@@ -1,0 +1,32 @@
+
+import java.util.Scanner;
+
+
+public class EntradaDeDados {
+
+	public static void main(String[] args) {
+	 
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("digite um numero seu filho da puta ");
+		
+	    String numero = entrada.next();
+	  
+		System.out.println("digite outro numero seu filho da puta ");
+		
+		String outroNumero = entrada.next();
+	 
+	  entrada.close();
+	  
+	  System.out.println("o numero digitado foi " + numero);
+	  
+	  System.out.println("o numero digitado foi " + outroNumero);
+		
+
+		
+		
+
+	 
+	}
+
+}

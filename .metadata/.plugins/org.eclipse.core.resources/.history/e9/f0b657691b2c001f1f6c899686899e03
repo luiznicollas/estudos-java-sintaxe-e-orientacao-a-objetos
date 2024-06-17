@@ -1,0 +1,35 @@
+
+public class Product {
+
+	private String nome;
+	private double preco;
+	private int quantidade;
+
+	public Product() {
+
+	}
+
+	public Product(String nome, double preco, int quantidade) {
+		this.nome = nome;
+		this.preco = preco;
+		this.quantidade = quantidade;
+
+	}
+
+	public double valorTotalEstoque() {
+
+		double valorTotal = preco * quantidade;
+		return valorTotal;
+	}
+
+	public void adicionarProduto(int quantidade) {
+		this.quantidade += quantidade;
+
+	}
+
+	public void removerProduto(int quantidade) {
+		this.quantidade -= quantidade;
+	}
+	
+	
+}

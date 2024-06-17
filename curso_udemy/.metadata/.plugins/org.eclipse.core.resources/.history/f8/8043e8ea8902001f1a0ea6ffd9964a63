@@ -1,0 +1,27 @@
+
+public class Program {
+
+	 static void exibirListras() 
+		{
+			System.out.println("----------------------------------------------");
+		}
+	public static void main(String[] args) {
+	
+		exibirListras();
+		
+		System.out.println(" Bem-vindo(a) seu (a) filho (a) da puta ao meu programa ");
+		
+		exibirListras();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

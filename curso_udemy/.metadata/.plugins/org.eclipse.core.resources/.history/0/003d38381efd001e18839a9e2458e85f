@@ -1,0 +1,15 @@
+
+public class ExAluno {
+
+	public static void main(String[] args) {
+		Aluno ester = new Aluno();
+		
+	     ester.nome = "Ester";
+	     ester.matricula = "40028922";
+	     
+	     
+	    ester.mediaDasNotas(4, 6, 7, 5);
+
+	}
+
+}

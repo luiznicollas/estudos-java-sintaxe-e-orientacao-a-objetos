@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class EntradaDeDados {
+
+	public static void main(String[] args) {
+	  double numero;
+	  Scanner sc = new Scanner(System.in);
+	  System.out.println("digite um numero desejado");
+	  
+	 numero =  sc.nextDouble();
+		
+	 System.out.println("voce digitou o %2.f " + numero);
+		
+
+		
+		
+	sc.close();
+	 
+	}
+
+}

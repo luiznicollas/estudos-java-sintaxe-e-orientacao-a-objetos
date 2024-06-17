@@ -1,0 +1,47 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class TesteContaBancaria {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner scan = new Scanner(System.in);
+		ContaBancaria conta = new ContaBancaria();
+
+		double numeroConta;
+		String titular;
+		double depositoInicial;
+		String  condicao;
+
+		System.out.println("Entre com seu numero da conta");
+		numeroConta = scan.nextDouble();
+		conta.setNumeroConta(numeroConta);
+
+		System.out.println("Entre com seu titular");
+		titular = scan.nextLine();
+		conta.setTitular(titular);
+
+		System.out.println("Existe um deposito inicial? (y/n)");
+		condicao = scan.next();
+		
+
+		if (condicao == "y") {
+			System.out.println("Entre com o deposito inicial");
+			depositoInicial = scan.nextDouble();
+
+			conta.setDepositoInicial(depositoInicial);
+
+		}
+
+		System.out.println("Dados da conta");
+		
+		System.out.println("Conta " + conta.getNumeroConta() +
+		                   "Titular: " + conta.getTitular() + 
+		                   "Saldo: " + conta.getSaldoConta());
+		
+
+		scan.close();
+
+	}
+
+}

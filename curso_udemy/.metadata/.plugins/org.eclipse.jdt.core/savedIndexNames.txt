@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\luizn\OneDrive\Imagens\Documentos\temp\curso_udemy\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3510846143.index
+3413270776.index

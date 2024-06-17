@@ -1,0 +1,41 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	 static void exibirListras() 
+		{
+			System.out.println("----------------------------------------------");
+		}
+	public static void main(String[] args) {
+	
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		 exibirListras();
+		
+		System.out.println(" Bem-vindo(a) seu (a) filho (a) da puta ao meu programa ");
+		
+		exibirListras();
+		
+		
+		System.out.println("digite um numero qualquer ");
+		
+		int x = sc.nextInt();
+		
+		System.out.println("o valor é" + x );
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
